@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5F5F5;
+}
+section {
+    width: 80%;
+    margin: auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #0078FF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navBar li {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 5px;
+
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+}
+
+
+
+.navBar a:hover {
+    background-color: #CDE1F8;
+    border-radius: 10px;
+    color: #0078FF;
+}
+
+#about {
+    display: flex;
+    gap: 5%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+
+}
+
+.about-side-section {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.about-side-section a {
+    margin-top: 5%;
+    padding-right: 6px;
+    padding-bottom: 5%;
+    margin-left: 4%;
+}
+
+.about-side-section p {
+    margin-left: 10%;
+    margin-top: 3px;
+    padding: 10px 0px;
+    width: 320px;
+    font-size: 1.2rem;
+}
+
+.fa-brands {
+    margin-left: -15%;
+    padding-bottom: 15px;
+}
+
+.about-main {
+    height:750px;
+    border-left: 2px solid gray;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-right: 5%;
+}
+
+.about-main h1 {
+    font-size: 4rem;
+    padding-bottom: 8%;
+}
+
+.about-main p {
+    padding-bottom: 13%;
+    line-height: 1.5;
+    color: rgb(133, 130, 130);
+    font-size: 1.2rem;
+}
+
+.skill-bar-container {
+    background-color: #CDE1F8;
+    width: 500px;
+    text-align: end;
+    color: white;
+    border-radius: 15px;
+}
+
+.skills p {
+    padding: 2% 0%;
+}
+
+.skill-bar {
+    background-color: #0078FF;
+    border-radius: 15px;
+
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    padding-bottom: 5%;
+}
+
+.hardSkill {
+    width: 450px;
+    height: 250px;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+.project {
+    width: 450px;
+    height: 250px;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.soft-skills-container {
+    background-color: #CDE1F8;
+    height: 300px;
+}
+
+.soft-skills-heading, .projects-heading {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #CDE1F8;
+}
+
+input {
+    width: 350px;
+}
+
+.contact-info {
+    width: 30%;
+    background-color: white;
+
+}
+
+.bottomIcon {
+    margin: 0;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+
+footer {
+    background-color: #92bef0;
+}
+
+form {
+    background-color: white;
+}
+
+.hard-skill-heading {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 4%;
+}
+
+.hard-skill-paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+}
